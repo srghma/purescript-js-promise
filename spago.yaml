@@ -1,0 +1,25 @@
+package:
+  name: js-promise
+  publish:
+    license: MIT
+    version: 1.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-js-promise
+  dependencies:
+    - effect
+    - exceptions
+    - foldable-traversable
+    - functions
+    - maybe
+    - newtype
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+
+workspace:
+  packageSet:
+    registry: 60.4.0
+  extraPackages: {}

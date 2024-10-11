@@ -7,19 +7,18 @@ package:
       githubOwner: purescript-contrib
       githubRepo: purescript-js-promise
   dependencies:
-    - effect
-    - exceptions
-    - foldable-traversable
-    - functions
-    - maybe
-    - newtype
-    - prelude
+    - effect: ">=4.0.0 <5.0.0"
+    - exceptions: ">=6.1.0 <7.0.0"
+    - foldable-traversable: ">=6.0.0 <7.0.0"
+    - functions: ">=6.0.0 <7.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - newtype: ">=5.0.0 <6.0.0"
+    - prelude: ">=6.0.1 <7.0.0"
   test:
     main: Test.Main
     dependencies:
       - console
-
 workspace:
   packageSet:
-    registry: 60.4.0
+    registry: 60.5.0
   extraPackages: {}

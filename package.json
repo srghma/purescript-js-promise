@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "clean": "rimraf output && rimraf .spago",
-    "build": "eslint src && purs-tidy check --config-require src/**/*.purs && spago build --censor-stats --strict --pedantic-packages"
+    "build": "eslint src && purs-tidy check --config-require src/**/*.purs && spago build --censor-stats --strict --ensure-ranges --pedantic-packages"
   },
   "devDependencies": {
     "eslint": "^9.12.0",

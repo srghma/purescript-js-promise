@@ -5,13 +5,27 @@
         "path": "./",
         "core": {
           "dependencies": [
-            "effect",
-            "exceptions",
-            "foldable-traversable",
-            "functions",
-            "maybe",
-            "newtype",
-            "prelude"
+            {
+              "effect": ">=4.0.0 <5.0.0"
+            },
+            {
+              "exceptions": ">=6.1.0 <7.0.0"
+            },
+            {
+              "foldable-traversable": ">=6.0.0 <7.0.0"
+            },
+            {
+              "functions": ">=6.0.0 <7.0.0"
+            },
+            {
+              "maybe": ">=6.0.0 <7.0.0"
+            },
+            {
+              "newtype": ">=5.0.0 <6.0.0"
+            },
+            {
+              "prelude": ">=6.0.1 <7.0.0"
+            }
           ],
           "build_plan": [
             "bifunctors",
@@ -53,7 +67,7 @@
     },
     "package_set": {
       "address": {
-        "registry": "60.4.0"
+        "registry": "60.5.0"
       },
       "compiler": ">=0.15.15 <0.16.0",
       "content": {
@@ -268,6 +282,7 @@
         "js-promise-aff": "1.0.0",
         "js-timers": "6.1.0",
         "js-uri": "3.1.0",
+        "jsdom": "1.0.0",
         "json": "1.1.0",
         "json-codecs": "5.0.0",
         "justifill": "0.5.0",

@@ -22,7 +22,4 @@ package:
       - datetime
       - refs
       - transformers
-workspace:
-  packageSet:
-    registry: 60.5.0
-  extraPackages: {}
+workspace: {}

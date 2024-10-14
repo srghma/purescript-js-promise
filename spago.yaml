@@ -2,7 +2,7 @@ package:
   name: js-promise
   publish:
     license: MIT
-    version: 1.0.0
+    version: 2.0.0
     location:
       githubOwner: purescript-contrib
       githubRepo: purescript-js-promise
